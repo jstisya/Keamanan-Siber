@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profil Kelompok</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      margin: 0;
+      background-color: #2c1919;
+      font-family: 'Segoe UI', sans-serif;
+      color: #fff;
+    }
+    .header {
+      text-align: center;
+      padding: 40px 20px 20px;
+    }
+    .header h1 {
+      margin: 0;
+      font-size: 36px;
+      border-bottom: 2px solid #f97316;
+      display: inline-block;
+    }
+    .profil-container {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 0 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
+    }
+    .card {
+      background-color: #3b2626;
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      padding: 20px;
+      gap: 20px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+    }
+    .card img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 12px;
+    }
+    .card-content {
+      flex: 1;
+    }
+    .card-content h2 {
+      margin: 0;
+      color: #f97316;
+    }
+    .card-content h3 {
+      margin: 8px 0 5px;
+      font-weight: normal;
+    }
+    .card-content p {
+      margin: 5px 0 15px;
+      color: #ddd;
+    }
+    .card-content .buttons a {
+      display: inline-block;
+      background-color: #f97316;
+      color: white;
+      padding: 8px 16px;
+      margin-right: 10px;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: background 0.3s ease;
+    }
+    .card-content .buttons a:hover {
+      background-color: #c2410c;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>Profil Kelompok</h1>
+  </div>
+
+  <div class="profil-container">
+    <div class="card">
+      <img src="tisya.jpg" alt="Justisya">
+      <div class="card-content">
+        <h2>Anggota 1</h2>
+        <h3>Justisya Injilia Tumbel</h3>
+        <p>NIM: 220211060229</p>
+        <div class="buttons">
+          <a href="#">Lihat Sosmed</a>
+          <a href="#">Hubungi</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="elsa.jpg" alt="Elsa">
+      <div class="card-content">
+        <h2>Anggota 2</h2>
+        <h3>Elsa Ester Lokas</h3>
+        <p>NIM: 220211060213</p>
+        <div class="buttons">
+          <a href="#">Lihat Sosmed</a>
+          <a href="#">Hubungi</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="ella.jpg" alt="Anggota 3">
+      <div class="card-content">
+        <h2>Anggota 3</h2>
+        <h3>Nama Anggota 3</h3>
+        <p>NIM: 2202110602XX</p>
+        <div class="buttons">
+          <a href="#">Lihat Sosmed</a>
+          <a href="#">Hubungi</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="buttons">
+    <a href="profil.html">Profil Kelompok</a>
+    <a href="video.html">Video Presentasi</a>
+    <a href="link.html">Link UNSRAT</a>
+  </div>
+  
+</body>
+</html>
